@@ -302,7 +302,18 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       >
         {/* <!-- SIDEBAR HEADER --> */}
         <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5 xl:py-10">
-          <Link href="/" className="text-5xl font-bold text-black">Olov</Link>
+          <Link
+            href="/"
+            className="flex items-center space-x-2 text-5xl font-bold text-black"
+            >
+            <span>Olov</span>
+            <Image
+              src="/images/logo/logo.svg"
+              alt="logo"
+              width={100}
+              height={100}
+            />
+          </Link>
 
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
