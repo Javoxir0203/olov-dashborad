@@ -24,15 +24,15 @@ const SignIn: React.FC = () => {
             <div className="custom-gradient-1 overflow-hidden rounded-2xl px-12.5 pt-12.5 dark:!bg-dark-2 dark:bg-none">
               <Link className="mb-10 inline-block" href="/">
                 <Image
-                  className="hidden dark:block"
+                  className="hidden dark:block border rounded-lg"
                   src={"/images/logo/logo.svg"}
                   alt="Logo"
                   width={176}
                   height={32}
                 />
                 <Image
-                  className="dark:hidden"
-                  src={"/images/logo/logo-dark.svg"}
+                  className="dark:hidden border rounded-lg"
+                  src={"/images/logo/logo.svg"}
                   alt="Logo"
                   width={176}
                   height={32}

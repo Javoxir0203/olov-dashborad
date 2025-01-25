@@ -306,8 +306,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
             href="/"
             className="flex items-center space-x-2 text-5xl font-bold text-black"
             >
-            <span>Olov</span>
+            <span className="dark:text-white">Olov</span>
             <Image
+            className=" dark:border rounded-full"
               src="/images/logo/logo.svg"
               alt="logo"
               width={100}
