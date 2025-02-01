@@ -1,16 +1,16 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Breadcrumb from "@/components/Breadcrumbs";
-import SettingBoxes from "@/components/SettingBoxes";
+import CategoryBoxes from "@/components/Category";
 
-const Settings: React.FC = () => {
+const Category: React.FC = () => {
   return (
     <DefaultLayout>
       <div className="mx-auto w-full max-w-[1080px]">
-        <Breadcrumb pageName="Settings" />
-        <SettingBoxes />
+        <Breadcrumb pageName="Categorys" />
+        <CategoryBoxes/>
       </div>
     </DefaultLayout>
   );
 };
 
-export default Settings;
+export default Category;
