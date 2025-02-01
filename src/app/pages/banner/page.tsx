@@ -1,16 +1,16 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Breadcrumb from "@/components/Breadcrumbs";
-import SettingBoxes from "@/components/SettingBoxes";
+import BannerBoxes from "@/components/Banners";
 
-const Settings: React.FC = () => {
+const Banner: React.FC = () => {
   return (
     <DefaultLayout>
       <div className="mx-auto w-full max-w-[1080px]">
-        <Breadcrumb pageName="Settings" />
-        <SettingBoxes />
+        <Breadcrumb pageName="Banners" />
+        <BannerBoxes/>
       </div>
     </DefaultLayout>
   );
 };
 
-export default Settings;
+export default Banner;

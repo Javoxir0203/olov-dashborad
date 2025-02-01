@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Signin from "@/components/Auth/Signin";
+import SignUp from "@/components/Auth/SignUp";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Breadcrumb from "@/components/Breadcrumbs";
 
@@ -10,13 +10,13 @@ import Breadcrumb from "@/components/Breadcrumbs";
 const SignIn: React.FC = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName="Sign In" />
+      <Breadcrumb pageName="Sign Up" />
 
       <div className="rounded-[10px] bg-white shadow-1 dark:bg-gray-dark dark:shadow-card">
         <div className="flex flex-wrap items-center">
           <div className="w-full xl:w-1/2">
             <div className="w-full p-4 sm:p-12.5 xl:p-15">
-              <Signin />
+              <SignUp />
             </div>
           </div>
 

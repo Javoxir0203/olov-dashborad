@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import SearchForm from "./SearchForm";
 import DarkModeSwitcher from "./DarkModeSwitcher";
 import DropdownNotification from "./DropdownNotification";
