@@ -182,7 +182,13 @@ const menuGroups = [
         ),
         label: "Pages",
         route: "#",
-        children: [{ label: "Settings", route: "/pages/settings" }],
+        children: [
+          { label: "Settings", route: "/pages/settings" },
+          { label: "Banners", route: "/pages/banner" },
+          { label: "Shops", route: "/pages/shop" },
+          { label: "Categorys", route: "/pages/category" },
+          { label: "Products", route: "/pages/product" },
+        ],
       },
     ],
   },
@@ -278,10 +284,14 @@ const menuGroups = [
             />
           </svg>
         ),
-        label: "Authentication",
-        route: "#",
-        children: [{ label: "Sign In", route: "/auth/signin" }],
-      },
+
+         label: "Authentication",
+         route: "#",
+         children: [
+         { label: "Sign In", route: "/auth/signin" },
+         { label: "Sign Up", route: "/auth/signup" },
+         ]
+       },
     ],
   },
 ];

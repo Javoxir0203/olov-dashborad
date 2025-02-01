@@ -1,16 +1,16 @@
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import Breadcrumb from "@/components/Breadcrumbs";
-import SettingBoxes from "@/components/SettingBoxes";
+import ShopBoxes from "@/components/Shops";
 
-const Settings: React.FC = () => {
+const Shop: React.FC = () => {
   return (
     <DefaultLayout>
       <div className="mx-auto w-full max-w-[1080px]">
-        <Breadcrumb pageName="Settings" />
-        <SettingBoxes />
+        <Breadcrumb pageName="Shops" />
+        <ShopBoxes/>
       </div>
     </DefaultLayout>
   );
 };
 
-export default Settings;
+export default Shop;
